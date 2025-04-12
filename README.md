@@ -28,6 +28,8 @@ The objective is to support informed decision-making for disaster preparedness a
 - The system uses fuzzy sets to model vague boundaries (e.g., "Near", "Moderate", "Far") for proximity.
 - A rule base is designed to integrate the three input variables and infer a potential impact level using fuzzy logic principles.
 - Output values are defuzzified using the centroid method.
+- Output visualization: for example...
+  ![image](https://github.com/user-attachments/assets/8a1e8133-6dff-46f3-a759-6879d53b797d)
 
 
 ### Technologies used
