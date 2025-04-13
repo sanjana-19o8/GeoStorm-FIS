@@ -10,7 +10,7 @@ function App() {
   const handlePredict = async () => {
     try {
       const res = await axios.post('http://localhost:5000/api/predict', {
-        lat, lon, severity
+        lat, lon
       });
       setResults(res.data);
     } catch (err) {
